@@ -114,6 +114,7 @@ const etiquetas = [
   { nombre: "Azul", img: "Recursos/AzulRecursos/ChispasYBufandaSticker.png", desc: "Chispas y Bufanda" },
   { nombre: "Eri", img: "Recursos/EriRecursos/Eri!.jpeg", desc: "Eri" },
   { nombre: "Eri", img: "Recursos/EriRecursos/DeniYEriSticker.png", desc: "Eri y Denini" },
+  { nombre: "Eri", img: "Recursos/EriRecursos/MapleSticker.png", desc: "Maple <3" },
   { nombre: "Flan", img: "Recursos/FlanRecursos/Flan!.jpeg", desc: "Flan" },
   { nombre: "Flan", img: "Recursos/FlanRecursos/Flan!2.jpg", desc: "Flan queer" },
   { nombre: "Flan", img: "Recursos/FlanRecursos/DeniYFlanSticker.png", desc: "Flan y Denini" },
