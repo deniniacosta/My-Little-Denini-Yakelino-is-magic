@@ -64,7 +64,11 @@ label:hover {
 #pestaña6:checked ~ #contenido6,
 #pestaña7:checked ~ #contenido7,
 #pestaña8:checked ~ #contenido8,
-#pestaña9:checked ~ #contenido9{
+#pestaña9:checked ~ #contenido9,
+#pestaña10:checked ~ #contenido10,
+#pestaña11:checked ~ #contenido11,
+#pestaña12:checked ~ #contenido12
+{
   display: block;
 }
 
@@ -101,7 +105,7 @@ label:hover {
   line-height: 1.5;
   list-style: none;
 }
-.azul-info, .deni-info, .indi-info, .flan-info, .eri-info, .saminini-info, .theo-info, .patitas-info {
+.azul-info, .deni-info, .indi-info, .flan-info, .eri-info, .saminini-info, .theo-info, .roth-info, .roman-info, .tomate-info, .soares-info, .patitas-info {
   font-family: 'Arial', sans-serif;
   background-color: #ced1ff;
   padding: 15px;
