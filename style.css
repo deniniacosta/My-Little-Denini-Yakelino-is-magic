@@ -10,18 +10,6 @@ h1 {
   text-align: center; 
 }
 
-.promo {
-  background-color: transparent;
-  background-image:url('Recursos/Voxtek.png');
-  background-size: cover; 
-  width: 100px;
-  height: 100px;
-  display: block;
-  border: none;
-  cursor: pointer;
-  margin-left: 30px;
-}
-
 .Titulo {
   width: 40%;
   margin: 0 auto;
@@ -67,7 +55,7 @@ label:hover {
 #pestaña9:checked ~ #contenido9,
 #pestaña10:checked ~ #contenido10,
 #pestaña11:checked ~ #contenido11,
-#pestaña12:checked ~ #contenido12
+#pestaña13:checked ~ #contenido13
 {
   display: block;
 }
@@ -86,8 +74,7 @@ label:hover {
   background-color: #f8f9fa;
   padding: 10px;
   border-radius: 15px;
-  flex: 1;
-  min-width: 250px;
+  flex:1;
 }
 
 .perfil-info h4 {
@@ -281,10 +268,11 @@ label:hover {
   text-align: center;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 5px;
-  max-width: 1500px;
+  gap: 5px;       
+  max-width: 100%;  
   margin: 20px auto;
+  flex-wrap: nowrap;
+
 }
 
 @media (max-width: 768px) {
@@ -359,20 +347,15 @@ label:hover {
 .next-btn { right: 10px; }
 
 #contenedor-juegos {
-  display: flex;         
-  justify-content: flex-start; 
-  gap: 20px;           
-  align-items: flex-start; 
+  display: flex;
+  flex-wrap: wrap;   /* permite que los juegos se acomoden en varias filas */
+  justify-content: center;
+  gap: 20px;
 }
-
-#juego-memoria {
-  flex: 0 0 auto;     
+.juego-memoria, #tateti {
+  flex: 1 1 300px;   /* cada juego ocupa mínimo 300px y se adapta */
+  max-width: 400px;
 }
-
-#otro-juego {
-  flex: 0 0 auto;       
-}
-
 
 #tablero {
   display: grid;

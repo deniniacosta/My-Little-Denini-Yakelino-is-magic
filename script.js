@@ -51,11 +51,6 @@ const frases = {
   Theo: [
     "Theo: Sos el más wachin, haces puras wachineadas.",
   ],
-  Patitas: [
-    "Patitas: *Maullido de angustia* 🐱",
-    "Patitas: *Maullido de hambre* 🐱",
-    "Patitas: *Maullido de ira* 🐱"
-  ]
 };
 
 function mostrarFrase(nombre) {
@@ -121,8 +116,16 @@ const etiquetas = [
   { nombre: "Flan", img: "Recursos/FlanRecursos/SamYSpockSticker.png", desc: "Sam y Spock" },
   { nombre: "Theo", img: "Recursos/TheoRecursos/Theo!.jpg", desc: "Theo" },
   { nombre: "Theo", img: "Recursos/TheoRecursos/Theo!2.jpg", desc: "Abel yummy" },
+  { nombre: "Roth", img: "Recursos/RothRecursos/Roth.jpeg", desc: "Roth" },
+  { nombre: "Roth", img: "Recursos/RothRecursos/Wolverine.jpeg", desc: "Wolverine!!" },
+  { nombre: "Roman", img: "Recursos/RomanRecursos/Roman.jpeg", desc: "Roman" },
+  { nombre: "Roman", img: "Recursos/RomanRecursos/Coco.jpeg", desc: "Coco!!" },
+  { nombre: "Tomate", img: "Recursos/TomateRecursos/Tomate.jpeg", desc: "Tomate" },
+  { nombre: "Tomate", img: "Recursos/TomateRecursos/BebedeTomate.jpeg", desc: "Bebe de Tomate" },
+  { nombre: "Soares", img: "Recursos/SoaresRecursos/Soares.jpeg", desc: "Soares" },
+    { nombre: "Soares", img: "Recursos/SoaresRecursos/Soares2.jpeg", desc: "Charlie!!" },
+  { nombre: "Soares", img: "Recursos/SoaresRecursos/Tiburon.jpeg", desc: "Tiburón!!" },
   { nombre: "Theo", img: "Recursos/TheoRecursos/BebeDeTheo.png", desc: "Bebe de Theo" },
-  { nombre: "Patitas", img: "Recursos/Patitas!.jpeg", desc: "Patitas" },
   { nombre: "Patitas", img: "Recursos/DeniRecursos/PatitasSticker.png", desc: "Patitas aww" },
 ];
 
